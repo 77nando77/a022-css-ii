@@ -1,20 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 header{
-    border-bottom: 1px solid black;
+    border-bottom: 0.063rem solid black;
+    text-align: center;
+    
   }
   
   main{
-    width: 800px;
-  }
-  
+    width: 50rem;
+    height: 40rem;
+    margin: auto;
+    zoom: 140%;
+    
+    margin-top: 2rem;
+    
+}
+
   aside{
     width: 180px;
-    border: 1px solid black;
+    border: 0.063rem solid black;
+    position: absolute;
+    right: 0;
+    text-align: center;
   }
-  
+
   footer{
     background-color: black;
     color: white;
     width: 100%;
+    position: fixed;
+    bottom: 0;
+    zoom: 170%;
   }
   
   button{
@@ -22,3 +40,12 @@ header{
     color: white;
     font-family: serif;
   }
+  aside:has(button:active){
+    background-color: black;
+    color: white;
+  }
+  button:active{
+    background-color: white;
+    color: black;
+  }
+ 
