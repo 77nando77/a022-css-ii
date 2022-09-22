@@ -21,7 +21,7 @@ header{
   aside{
     width: 180px;
     border: 0.063rem solid black;
-    position: absolute;
+    position: fixed;
     right: 0;
     text-align: center;
   }
